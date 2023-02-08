@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="demo"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.orange_testng.Orange_testng">
+        <methods>
+          <include name="password"/>
+          <include name="username"/>
+        </methods>
+      </class> <!-- com.orange_testng.Orange_testng -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46767" started-at="2023-01-31T16:09:12 IST" finished-at="2023-01-31T16:09:58 IST">
+    <groups>
+      <group name="demo">
+        <method signature="Orange_testng.password()[pri:1, instance:com.orange_testng.Orange_testng@11758f2a]" name="password" class="com.orange_testng.Orange_testng"/>
+        <method signature="Orange_testng.username()[pri:0, instance:com.orange_testng.Orange_testng@11758f2a]" name="username" class="com.orange_testng.Orange_testng"/>
+      </group> <!-- demo -->
+    </groups>
+    <test name="Default test" duration-ms="46767" started-at="2023-01-31T16:09:12 IST" finished-at="2023-01-31T16:09:58 IST">
+      <class name="com.orange_testng.Orange_testng">
+        <test-method status="PASS" signature="launching()[pri:0, instance:com.orange_testng.Orange_testng@11758f2a]" name="launching" is-config="true" duration-ms="2411" started-at="2023-01-31T16:09:12 IST" finished-at="2023-01-31T16:09:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launching -->
+        <test-method status="PASS" signature="url()[pri:0, instance:com.orange_testng.Orange_testng@11758f2a]" name="url" is-config="true" duration-ms="5946" started-at="2023-01-31T16:09:14 IST" finished-at="2023-01-31T16:09:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method status="PASS" signature="username()[pri:0, instance:com.orange_testng.Orange_testng@11758f2a]" name="username" duration-ms="10771" started-at="2023-01-31T16:09:20 IST" finished-at="2023-01-31T16:09:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username -->
+        <test-method status="PASS" signature="password()[pri:1, instance:com.orange_testng.Orange_testng@11758f2a]" name="password" duration-ms="10084" started-at="2023-01-31T16:09:31 IST" finished-at="2023-01-31T16:09:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+        <test-method status="PASS" signature="enterusername()[pri:2, instance:com.orange_testng.Orange_testng@11758f2a]" name="enterusername" duration-ms="5225" started-at="2023-01-31T16:09:41 IST" finished-at="2023-01-31T16:09:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterusername -->
+        <test-method status="PASS" signature="enter_password()[pri:3, instance:com.orange_testng.Orange_testng@11758f2a]" name="enter_password" duration-ms="160" started-at="2023-01-31T16:09:46 IST" finished-at="2023-01-31T16:09:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_password -->
+        <test-method status="PASS" signature="click_action()[pri:4, instance:com.orange_testng.Orange_testng@11758f2a]" name="click_action" duration-ms="1287" started-at="2023-01-31T16:09:46 IST" finished-at="2023-01-31T16:09:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_action -->
+        <test-method status="PASS" signature="menuoption()[pri:5, instance:com.orange_testng.Orange_testng@11758f2a]" name="menuoption" duration-ms="10085" started-at="2023-01-31T16:09:48 IST" finished-at="2023-01-31T16:09:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuoption -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:com.orange_testng.Orange_testng@11758f2a]" name="browserclose" is-config="true" duration-ms="735" started-at="2023-01-31T16:09:58 IST" finished-at="2023-01-31T16:09:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- com.orange_testng.Orange_testng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
